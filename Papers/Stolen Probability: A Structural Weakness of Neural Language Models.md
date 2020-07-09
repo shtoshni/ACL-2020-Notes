@@ -8,4 +8,5 @@ to their relative placement in the embedding space.
 * Impossible for NLM to assign a high probability to infrequent words.
 * Commentary:
     * Super cool work and very easy to understand.
-    * How would other distance metrics do? 
+    * How would other distance metrics do? Euclidean doesn't do that well.
+    * Chiang: Normalizing the token embedding norms is one way.
